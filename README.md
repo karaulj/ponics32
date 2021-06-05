@@ -6,9 +6,9 @@ ponics32 is a hydro/aero/aquaponics monitoring & control system built using the 
 ![Web UI](images/web_ui.png)
 
 ## Configuration
-ponics32 is a FreeRTOS application that consists of sensor monitoring, actuator control, emergency detection, and an HTTP web server. HTML code for the UI is auto-generated at runtime from predefined arrays (`allSensors`, `allActuators`, `allEmergencies`) so users can focus on writing drivers.
+ponics32 is a FreeRTOS application that supports sensor monitoring, actuator control, emergency detection, and an HTTP web server. HTML code for the UI is auto-generated at runtime from predefined arrays (`allSensors`, `allActuators`, `allEmergencies`) so users can just focus on writing drivers.
 
-Additional settings such as WiFi credentials can be found in `main/settings.h`.
+Additional settings (i.e. WiFi credentials) can be found in `main/settings.h`.
 
 ponics32 systems are characterized by 3 user-defined groups:
 - Sensors
