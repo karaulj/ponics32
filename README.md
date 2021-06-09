@@ -3,9 +3,10 @@ ponics32
 
 ponics32 is a hydro/aero/aquaponics monitoring & control system built using the ESP-IDF framework.
 
-![Web UI](images/web_ui.png)
+<img src="images/web_ui.png">
 
 ## Configuration
+<img src="images/hardware.jpg" width=400 align=right>
 ponics32 is a FreeRTOS application that supports sensor monitoring, actuator control, emergency detection, and an HTTP web server. HTML code for the UI is auto-generated at runtime from predefined arrays (`allSensors`, `allActuators`, `allEmergencies`) so users can just focus on writing drivers.
 
 Additional settings (i.e. WiFi credentials) can be found in `main/settings.h`.
